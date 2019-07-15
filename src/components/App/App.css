@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    background-image: url('/images/light-blue.jpg');
+    width: 100%;
+    z-index: 0;
+}
+
+
+.alert {
+    background-color: #ff4545;
+    margin: 50px;
+}
+
+.app {
+    margin-left: 250px;
+    margin-right: 12px;
+    
+}
+
+
+h1 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+      color: #1e1e83;
+      font-weight: bolder;
+      letter-spacing: .07em;
+      text-shadow: 
+        2px 2px 0px #b2c0bf, 
+        2px 2px 0px rgba(39, 37, 53, 0.2);
+    
+}
+
+h2 {
+    font-size: 28px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+      color: #1e1e83;
+      font-weight: bolder;
+      letter-spacing: .07em;
+      text-shadow: 
+        2px 2px 0px #b2c0bf, 
+        2px 2px 0px rgba(39, 37, 53, 0.2);
+    
+}
+
+input {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.log-in, .log-out, .register {
+  background-color: #00acb0;
+  border-radius: 4px;
+  color: #f8f8f8;
+  min-height: 50px;
+  min-width: 100px;
+  outline:0;
+  cursor: pointer;
+}
+
+.log-in:hover, .log-out:hover, .register:hover {
+  background-color: #008183;
+}
+
+/* This line makes the "Register" and "Login" buttons look like links */
+.link-button {
+    background:none;
+    color:inherit;
+    border:none;
+    padding:0;
+    font: inherit;
+    outline:0;
+    border-bottom:1px solid #444; 
+    cursor: pointer;
+}
