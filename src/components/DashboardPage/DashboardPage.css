@@ -74,14 +74,6 @@
   border-radius: 10px;
 }
 
-/* overdue animation */
-.overdueLabel{
-  animation-name: overdue;
-  animation-duration: 2s;
-  animation-direction: normal;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
 
 @keyframes overdue{
   0% {color: rgb(105, 9, 9);}
