@@ -25,7 +25,7 @@
 }
 
 /* Today's Task Scrollbar Styling */
-.todayText::-webkit-scrollbar {
+/* .todayText::-webkit-scrollbar {
   width: 18px;
 }
 
@@ -43,7 +43,7 @@
 .todayText::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px rgb(170, 227, 243); 
   border-radius: 10px;
-}
+} */
 
 /* OVERDUE Today's Task Scrollbar and smaller div for task list inside of the task box*/
 .overdueText{
@@ -54,11 +54,11 @@
 }
 
 /* Today's Task Scrollbar Styling */
-.overdueText::-webkit-scrollbar {
+/* .overdueText::-webkit-scrollbar {
   width: 18px;
-}
+} */
 
-.overdueText::-webkit-scrollbar-thumb
+/* .overdueText::-webkit-scrollbar-thumb
 {
 	border-radius: 10px;
 	background-image: -webkit-gradient(linear,
@@ -72,7 +72,7 @@
 .overdueText::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px rgb(170, 227, 243); 
   border-radius: 10px;
-}
+} */
 
 
 @keyframes overdue{
@@ -104,25 +104,7 @@
 }
 
 /* Requirement Scrollbar Styling */
-.requireText::-webkit-scrollbar {
-  width: 18px;
-}
 
-.requireText::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	background-image: -webkit-gradient(linear,
-									   left bottom,
-									   left top,
-									   color-stop(0.24, rgb(221, 252, 239)),
-									   color-stop(0.47, rgb(21, 129, 57)),
-									   color-stop(0.76, rgb(173, 223, 202)));
-}
-
-.requireText::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgb(176, 230, 207); 
-  border-radius: 10px;
-}
 
 .todayBox ul{
   list-style: none;
